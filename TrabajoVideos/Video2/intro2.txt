@@ -1,5 +1,5 @@
 -Introducciona elementos y etiquetas
-   *Etiquetas: todo lo que esta entre mayor y menos que 
+   *Etiquetas: todo lo que esta entre mayor y menos que (<,>)
    *Elementos:
 
 -IDE recomendado
