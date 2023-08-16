@@ -7,3 +7,12 @@ Es un estandar que surgio en el año 1991 por
 (w3c)= Wolf White Web Conshortium
 Version actual html 5
 los navegadores modernos soportan la version actual
+
+-Introducciona elementos y etiquetas
+   *Etiquetas: todo lo que esta entre mayor y menos que (<,>)
+   *Elementos:
+
+-IDE recomendado
+(IDE)=Integrated Development Environment
+   *VSCODE
+   *

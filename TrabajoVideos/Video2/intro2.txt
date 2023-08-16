@@ -1,8 +1,0 @@
--Introducciona elementos y etiquetas
-   *Etiquetas: todo lo que esta entre mayor y menos que (<,>)
-   *Elementos:
-
--IDE recomendado
-(IDE)=Integrated Development Environment
-   *VSCODE
-   *
