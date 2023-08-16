@@ -5,5 +5,27 @@ h1{
 p{
     color:aqua;
     font-size: 20pt;
-    
+}
+p 
+
+p #primera-noticia{
+    color:dodgerblue;
+    font-size: 12pt;
+}
+
+p #segunda-noticia{
+    color:brown;
+}
+
+.encabezado{
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+*.warnig{
+    color: magenta;
+}
+
+.autor,.fecha,.ubicacion{
+    text-decoration: underline;
 }
