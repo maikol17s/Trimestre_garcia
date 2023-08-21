@@ -1,0 +1,31 @@
+/* https:/codepen.io/enxaneta/full/adLPav */
+.flex{
+    display: flex;
+    flex-direction: row;
+    background-color:aquamarine;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+}
+
+.contenido-1{
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid green;
+}
+
+.contenido-2{
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid green
+}
+
+.contenido-3{
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid green;
+}

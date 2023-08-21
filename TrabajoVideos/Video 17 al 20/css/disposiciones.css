@@ -1,0 +1,19 @@
+.div-1, .div-2{
+    background-color:darkgray
+}
+
+.span-1{
+    background-color: coral;
+    float: right;
+}
+
+
+.span-2{
+    background-color: coral;
+    float: left;
+}
+.img{
+    width: 50px;
+    height: 50px;
+}
+
