@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Web</title>
     <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
 </head>
 
 <body>
@@ -18,9 +17,10 @@
                 </div>
                 <ul class="menu">
                     <li><a class="activa" href="#">Inicio</a></li>
-                    <li><a href="#">Codigo</a></li>
+                    <li><a href="#">Quien Soy</a></li>
+                    <li><a href="#">GitHub</a></li>
                     <li><a href="#">Proyectos</a></li>
-                    <li><a href="#">Quien soy</a></li>
+                    <li><a href="#">Comentarios</a></li>
                 </ul>
             </nav>
         </header>
@@ -28,13 +28,26 @@
         <main class="main">
             <div class="informacion">
                 <h1>Portafolio <span>De</span> <span1>Programacion</span1></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, impedit? Fugit adipisci, vel vitae hic numquam consequatur maiores eos impedit quae id sunt mollitia voluptate veniam quidem fuga exercitationem? Atque.</p>
             </div>
-            <img src="imagenes/portada.jpg" alt="Portada">
+            <section class="container">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                            <img id="slider-1" src="imagenes/portada.jpg" alt=""></li>
+                            <img id="slider-2" src="imagenes/python.jpg" alt=""></li>
+                            <img id="slider-3" src="imagenes/iconos.jpg" alt=""></li>
+                            <img id="slider-4" src="imagenes/html y css.jpg" alt=""></li>
+                    </div>
+                    <div class="slider-nev">
+                        <a href="#slider-1"></a>
+                        <a href="#slider-2"></a>
+                        <a href="#slider-3"></a>
+                        <a href="#slider-4"></a>
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
     
-
 <div class="abaut">
     <img src="imagenes/quien soy.jpg" alt="MG Quien Soy">
 
@@ -45,6 +58,102 @@
             les presento mi portafolio en el cual contare quien soy, de mis proyectos
             como programadora junior y mis diferentes repositorios en GitHub,
             espero que les guste.</p>
+    </div>
+</div>
+
+<div class="portafolio">
+    <div class="portafolio-headings">
+        <h1>Mi <span>GitHub</span></h1>
+        <div class="divider"></div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card__img">
+            </div>
+            <div class="card__title">
+                <h2>Proyecto Descripcion</h2>
+            </div>
+            <div class="card__projects_icono">
+                <a href="https://github.com/maikol17s/pythongarcia.git" target="_blank">
+                    <img src="imagenes/github.png" alt="GitHub">
+                </a>
+            </div>
+            <div class="proyecto-details-contenedor">
+                <button class="proyecto-details">
+                    <a href="https://github.com/maikol17s/pythongarcia.git" target="_blank">
+                    PROYECTOS
+                    </a>
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__img">
+            </div>
+            <div class="card__title">
+                <h2>Proyecto Descripcion</h2>
+            </div>
+            <div class="card__projects_icono">
+                <a href="https://github.com/maikol17s/Trimestre_garcia.git" target="_blank">
+                    <img src="imagenes/github.png" alt="GitHub">
+                </a>
+            </div>
+            <div class="proyecto-details-contenedor">
+                <button class="proyecto-details">
+                    <a href="https://github.com/maikol17s/Trimestre_garcia.git" target="_blank">
+                        PROYECTOS
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="proyectos">
+    <h1>Mis<span> Proyectos </span></h1>
+    <main>
+
+        <div class="container_card">
+
+            <div class="card_father">
+                <div class="card_1">
+                    <div class="card_front" style="background-image: url(imagenes/talentohumano.jpg);">
+                        <div class="bg"></div>
+                        <div class="body_card_front">
+                            <h4>Proyecto Talento Humano</h4>
+                        </div>
+                    </div>
+
+                    <div class="card_back">
+                        <div class="body_card_back">
+                            <h4>Talento Humano</h4>
+                            <p1>Agilizar el proceso de selección de personal en el programa de formación de talento humano.
+                                Esto por medio de una herramienta que les permita seleccionar el perfil idóneo para cada vacante</p1>
+                            <a href="https://github.com/Valen12A/ProyectoRH.git" target="_blank">
+                                <input type="button" value="Ver Codigo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<div class="contacto">
+    <div class="contacto-headings">
+        <h2>Send<span> me </span> a message</h2>
+        <div class="divider"></div>
+    </div>
+    <img src="imagenes/contactame.jpg" alt="contactame">
+    <div class="container-contacto">
+        <h4>Send me a message</h4>
+        <form class="form">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <textarea placeholder="Place your message">
+            </textarea>
+            <button class="btn-submit">Send message</button>
+        </form>
     </div>
 </div>
 
