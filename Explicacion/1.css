@@ -1,0 +1,85 @@
+.main1 {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(6, 6, 6);
+    border: 15px solid rgba(0, 0, 0, 0.697);
+    box-sizing: border-box;
+    position:relative;
+}
+
+.seccion {
+    width: 180px;
+    height: 180px;
+    background: rgb(3, 23, 247);
+    position: absolute;
+    left: 0;
+}
+
+.seccion-2 {
+    width: 180px;
+    height: 180px;
+    background: rgb(3, 23, 247);
+    position: absolute;
+    right: 0
+}
+
+.seccion-3 {
+    width: 180px;
+    height: 180px;
+    background: rgb(3, 23, 247);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.seccion-4 {
+    width: 180px;
+    height: 180px;
+    background: rgb(3, 23, 247);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.seccion-5 {
+    width: 180px;
+    height: 180px;
+    background: rgb(3, 23, 247);
+    position: absolute;
+    bottom: 195px;
+}
+
+.seccion-6 {
+    width: 180px;
+    height: 180px;
+    background: rgb(3, 23, 247);
+    position: absolute;
+    left: 195px;
+}
+
+.seccion-7 {
+    width: 180px;
+    height: 180px;
+    background: rgb(3, 23, 247);
+    position: absolute;
+    right: 195px;
+    top: 195px;
+}
+
+.seccion-8 {
+    width: 180px;
+    height: 180px;
+    background: rgb(3, 23, 247);
+    position: absolute;
+    right: 0px;
+    top: 195px;
+}
+
+.seccion-9 {
+    width: 180px;
+    height: 180px;
+    background: rgb(3, 23, 247);
+    position: absolute;
+    bottom: 0;
+    right: 195px;
+}
