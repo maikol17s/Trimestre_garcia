@@ -132,7 +132,7 @@ span{
     transition: opacity ease 250ms;
 }
 .abaut{
-    background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+    background-color: #a5b1c2;
     display: grid;
     grid-template-columns: repeat(10,1fr);
     width: 100vw;
@@ -168,7 +168,6 @@ span{
 
 .portafolio{
     width: 100vw;
-    background-color: gray;
     color: rgb(15, 15, 15);
     justify-content: center;
 }
@@ -264,7 +263,7 @@ span{
     box-sizing: border-box;
 }
 .proyectos{
-    background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+    background-color: #a5b1c2;
 }
 
 .proyectos{
@@ -430,9 +429,3 @@ span{
     cursor: pointer;
     font-weight: 400;
 }
-
-
-
-
-
-
