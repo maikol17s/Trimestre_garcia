@@ -16,7 +16,7 @@ body{
 .portafolio{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%);
+    background-color: #3c6382;
     color: black;
 }
 
@@ -27,13 +27,13 @@ body{
 }
 
 .portada .brand{
-    background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+    background-color: #47b9c7;
     height: 50px;
     width: 700px;
 }
 
 .portada .menu{
-    background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+    background-color: #47b9c7;
     height: 50px;
     width: 700px;
 }
