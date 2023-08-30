@@ -8,7 +8,7 @@
 .portafolio{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+    background-color: #095169;
     color: black;
 }
 
@@ -19,13 +19,13 @@
 }
 
 .portada .brand{
-    background-image: linear-gradient(to top, #03fcef 0%, #ef08b2 100%);
+    background-color: #abee93;
     height: 50px;
     width: 700px;
 }
 
 .portada .menu{
-    background-image: linear-gradient(to top, #03fcef 0%, #ef08b2 100%);
+    background-color: #abee93;
     height: 50px;
     width: 700px;
 }
