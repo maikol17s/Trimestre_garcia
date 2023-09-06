@@ -16,7 +16,7 @@ body{
 .portafolio{
     width: 100vw;
     height: 100vh;
-    background-color: #3c6382;
+    background:linear-gradient(#7efff5,#192a56);
     color: black;
 }
 
@@ -27,13 +27,13 @@ body{
 }
 
 .portada .brand{
-    background-color: #47b9c7;
+    background:linear-gradient(#f5f6fa,#576574);
     height: 50px;
     width: 700px;
 }
 
 .portada .menu{
-    background-color: #47b9c7;
+    background:linear-gradient(#f5f6fa,#576574);
     height: 50px;
     width: 700px;
 }
@@ -49,7 +49,7 @@ body{
     width: 60%;
     height: 50%;
     justify-content: space-around;
-    background-color:orange;
+    background: linear-gradient(#f5f6fa,#576574);
     margin-top: -7px;
 }
 
@@ -132,7 +132,7 @@ span{
     transition: opacity ease 250ms;
 }
 .abaut{
-    background-color: #a5b1c2;
+    background:linear-gradient(#f5f6fa,#8395a7);
     display: grid;
     grid-template-columns: repeat(10,1fr);
     width: 100vw;
@@ -141,7 +141,10 @@ span{
 
 .abaut img{
     width: 100%;
-    grid-column: 1/5;
+    grid-column: 1/5; 
+    margin: 20px;
+    border-radius: 10px;
+    border-color: black;
 }
 
 .intro{
@@ -263,7 +266,7 @@ span{
     box-sizing: border-box;
 }
 .proyectos{
-    background-color: #a5b1c2;
+    background:linear-gradient(#f5f6fa,#8395a7);
 }
 
 .proyectos{
@@ -372,7 +375,7 @@ span{
 /* ****************************************** */
 
 .form_1{
-    background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%);
+    background-image: linear-gradient(#7efff5,#192a56);
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -380,7 +383,7 @@ span{
 }
 
 .form{
-    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+    background-image: linear-gradient(#FFC312,#A3CB38);
     width: 90%;
     margin: auto;
     max-width: 400px;
