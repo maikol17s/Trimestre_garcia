@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -26,17 +30,19 @@ body{
     padding: 2em;
 }
 
-.portada .brand{
-    background:linear-gradient(#f5f6fa,#576574);
-    height: 50px;
-    width: 700px;
-}
-
 .portada .menu{
     background:linear-gradient(#f5f6fa,#576574);
-    height: 50px;
-    width: 700px;
+    height: 45px;
+    width: 1100px;
+    margin-top: 2px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    z-index: 1000;
+    right: 10px;
+    opacity: 50px;
 }
+
 .brand{
     margin-top: -7px;
 }
@@ -75,10 +81,11 @@ body{
 .main{
     margin: 0 auto;
     width: 80vw;
-    height: 40vh;
+    height: 50vh;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+    animation-direction: alternate 5s;
 }
 
 h1{
@@ -89,28 +96,44 @@ span{
     color: rgb(243, 15, 15);
 }
 
-.slider-wrapper{
-    position: relative;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.slider{
-    display: flex;
-    aspect-ratio: 16 / 9;
+.slider-frame{
+    width: 650px;
+    margin: 50px auto 0;
     overflow: hidden;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    box-shadow: 0 .25rem .5rem #21212126;
-    border-radius: .5rem;
+    position: relative;
+    padding: 30px;
 }
 
-.slider img{
-    width: 155px;
-    flex: 1 0 100%;
-    scroll-snap-align: start;
-    object-fit: cover;
-    border-color: white;
+.slider-lista{
+    display: flex;
+    width: 400%;
+    animation: slide 15s infinite alternate ease-in-out;
+}
+
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+@keyframes slide{
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
 }
 
 .slider-nav{
@@ -129,7 +152,6 @@ span{
     border-radius: 50%;
     background-color: #fff;
     opacity: .75;
-    transition: opacity ease 250ms;
 }
 .abaut{
     background:linear-gradient(#f5f6fa,#8395a7);
@@ -141,6 +163,7 @@ span{
 
 .abaut img{
     width: 100%;
+    height: 550px;
     grid-column: 1/5; 
     margin: 20px;
     border-radius: 10px;
@@ -167,6 +190,7 @@ span{
 
 .intro p{
    margin-bottom: 1em; 
+   text-align: justify;
 }
 
 .portafolio{
@@ -267,6 +291,7 @@ span{
 }
 .proyectos{
     background:linear-gradient(#f5f6fa,#8395a7);
+    height: 600px;
 }
 
 .proyectos{
